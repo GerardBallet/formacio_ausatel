@@ -59,3 +59,17 @@ Para ello añadimos el tag script dentro del body del html
 ```
 
 Pulsando F12 en el navegador podemos ver la consola del navegador y el mensaje que hemos escrito en el script
+
+# Ahora probaremos de hacer unapeticion a una api
+
+Para ello usaremos la api publica de marvel.https://developer.marvel.com/documentation/getting_started
+
+Para ello nos registramos en la web de marvel y nos generamos una apikey publica y una privada
+
+generamos el md5 de ts + private key + public key
+
+en https://www.md5hashgenerator.com/
+
+Primero podemos probar de realizar la llamada con la api de rapidapi a la url
+
+https://gateway.marvel.com:443/v1/public/characters?ts={ts}&apikey={apikey}&hash={hash}
