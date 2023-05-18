@@ -1,0 +1,14 @@
+{
+  "name": "02-javascript-avanzado",
+  "version": "1.0.0",
+  "description": "En este ejemplo usaremos vite para compilar una aplicacion en vanilla js moderno.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.3.8"
+  }
+}
