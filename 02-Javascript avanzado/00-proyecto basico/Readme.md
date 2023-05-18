@@ -110,3 +110,21 @@ Ahora podemos hacer lo mismo con los comandos:
  npm run serve
 
 ```
+
+# Puntos a destacar:
+
+- Carpeta modules
+- Carpeta dist
+- hash en js
+- Eslint
+- Tags de html
+- Importacion dinamica
+- Babel
+- Typescript
+- Sass
+- Webpack
+- Jquery
+- Versionado de paquetes
+- extensiones
+  - Eslinty
+  - version lens
