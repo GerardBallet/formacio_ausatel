@@ -73,3 +73,15 @@ en https://www.md5hashgenerator.com/
 Primero podemos probar de realizar la llamada con la api de rapidapi a la url
 
 https://gateway.marvel.com:443/v1/public/characters?ts={ts}&apikey={apikey}&hash={hash}
+
+Ejemplo de llamada con fetch
+
+```javascript
+let ts = 1;
+let apikey = 1;
+let hash = 1;
+const url = `https://gateway.marvel.com:443/v1/public/characters?ts=${ts}&apikey=${apikey}&hash=${hash}`;
+fetch(url)
+  .then((response) => response.json())
+  .then((data) => console.log(data));
+```
