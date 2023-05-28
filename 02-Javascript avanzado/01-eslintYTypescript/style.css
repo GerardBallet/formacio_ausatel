@@ -1,0 +1,18 @@
+      #main {
+          background-color: #f1f1f1;
+          padding: 20px;
+          margin: 20px;
+          border-radius: 10px;
+      }
+
+      #title {
+          color: #000;
+          font-size: 30px;
+          text-align: center;
+      }
+
+      #descripcion {
+          color: #000;
+          font-size: 20px;
+          text-align: center;
+      }
